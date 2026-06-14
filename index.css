@@ -59,3 +59,13 @@ button:active{
 #power:hover{
     background-color: red;
 }
+.off {
+    opacity: 0.3;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.off:hover {
+    background-color: inherit !important;
+    transform: none !important;
+}
